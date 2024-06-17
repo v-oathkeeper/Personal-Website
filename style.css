@@ -1,0 +1,74 @@
+.gradient-background {
+    background: linear-gradient(300deg, #b5e0ee, #f2afb9, #ece0de);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+  
+  .gradient-back {
+    background: linear-gradient(300deg, #f7f9f9, #cfcaf7, #eecece);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  h1 {
+    font-family: "Pacifico" , cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #5f5fe8;
+}
+
+.nav {
+    --bs-nav-link-color: #5f5fe8;
+}
+   
+#intro {
+        margin: 0;
+        padding: 0;
+        background: url('./assets/images/—Pngtree—white\ simple\ texture\ background_1323742.jpg') no-repeat center center fixed;
+        background-size:cover;     
+}
+
+.profilePic {
+    border-radius: 50%;
+}
+
+h2 {
+    font-family: "Frank Ruhl Libre", serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.card {
+   
+    --bs-card-bg: white;
+}
+
+.para {
+    text-align: center;
+}
+
+.par {
+    font-size: x-large;
+}
